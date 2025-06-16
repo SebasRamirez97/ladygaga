@@ -1,4 +1,10 @@
-def lista_temas():
+def lista_temas()->list[dict]:
+    '''Devuelve la lista de diccionarios de canciones
+    ### Args:
+        None
+    ### Returns:
+        list[dict]
+    '''
     playlist_lady_gaga = [
         {
             "Tema": "Colby O'Donis | Akon - Just Dance",
